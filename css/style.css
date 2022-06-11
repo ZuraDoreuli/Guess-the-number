@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: darkcyan;
+}
+.title {
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+.enter-number__block {
+	display: flex;
+	margin-bottom: 20px;
+}
+.enter-number__text {
+	font-size: 20px;
+	letter-spacing: 1.7px;
+	margin-right: 10px;
+}
+.enter-number__input {
+	font-size: 20px;
+	width: 50px;
+	margin-right: 5px;
+}
+.enter-number__button {
+	padding: 2px 5px;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #000;
+	cursor: pointer;
+}
+.message__block {
+	display: flex;
+}
+.message__text {
+	font-size: 20px;
+	letter-spacing: 1.7px;
+	margin-right: 10px;
+}
+.message__attempt {
+	font-size: 20px;
+	letter-spacing: 1.7px;
+}
+.game-restart__button {
+	margin-top: 20px;
+	padding: 2px 5px;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #000;
+	cursor: pointer;
+}
